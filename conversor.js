@@ -15,7 +15,7 @@ function calcular(){
         let valorReduzido = valorDolar.toFixed(2)             
         let valorUsuario = document.getElementById('valor').value
         let total =  valorUsuario * valorReduzido
-        document.querySelector('h1').innerHTML = total
+        document.querySelector('h1').innerHTML = `${valorUsuario}<img src="https://cdn-icons-png.flaticon.com/128/126/126179.png" alt=""> dolares equivale a ${total}<img src="https://cdn-icons-png.flaticon.com/128/126/126179.png" alt="">`
     }}
 
 }
